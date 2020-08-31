@@ -2,7 +2,7 @@
 
 ## OOP - Object Oriented Programming
 
-Je gebruikt in deze opdracht de properties die je hebt gemaakt bij de class.
+Je gebruikt in dje hebt gemaakteze opdracht de properties die  bij de class.
 
 ### Properties een waarde geven
 
