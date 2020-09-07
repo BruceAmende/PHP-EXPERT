@@ -1,8 +1,6 @@
 <?php
 
- foreach ($medewerkers as $key => $value) {
-    echo $key;
-   }
+
   $medewerkers = [
     [
       'voornaam' => 'Willem',
@@ -32,10 +30,17 @@
     ]
   ];
 
-
-  echo $medewerkers[0]['voornaam']; 
-  echo $medewerkers[$x]['voornaam']; 
-  echo $medewerkers[$x]['voornaam'];
+  foreach ($medewerkers as $x => $value) {
+    echo $medewerkers[$x]['voornaam']; 
+    echo "\n";
+    echo $medewerkers[$x]['achternaam'];
+    echo "\n -"; 
+    echo $medewerkers[$x]['functie']; 
+    echo "\n  /";
+    
+    
+   }
+  
 
 
 
