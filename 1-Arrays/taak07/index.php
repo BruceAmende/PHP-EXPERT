@@ -82,6 +82,22 @@
 
     <h1></h1>
     <div class="content">
+    <?php
+        
+      
+        foreach($nieuwsberichten as $nieuws ){
+            echo '<h2>' . $nieuws[0]['titel']. '</h2>';
+            echo '<p>' . $nieuws[0]['beschrijving']. '</p>';
+            echo '<img src=' . $nieuws[0]['image']. '</img>';
+            echo '<br>';
+            echo '<h2>' . $nieuws[1]['titel']. '</h2>';
+            echo '<p>' . $nieuws[1]['beschrijving']. '</p>';
+            echo '<img src=' . $nieuws[1]['image']. '</img>';
+            echo '</ul>';
+
+        }
+    
+            ?>
 
         <h2 class="title"></h2>
         <p class="title"></p>
