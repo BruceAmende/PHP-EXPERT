@@ -1,6 +1,6 @@
 <?php
 
-class __auto__(){
+class __auto__{
     $merk;
     $kleur;
     $type;
