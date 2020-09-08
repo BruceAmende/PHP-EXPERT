@@ -12,7 +12,25 @@ Maak gebruik van de tabel over Provincies in Nederland: https://nl.wikipedia.org
 
 ```php
 $provincies = [
-
+        'Groningen' => [
+        'hoofdstad' => 'Groningen',
+        'bevolking' => '583990',
+        'meeste inwoners in gemeente' => 'Groningen'
+    ],
+    'Overijsel' => [
+        'hoofdstad' => 'Zwolle',
+        'bevolking' => '1156431',
+        'meeste inwoners in gemeente' => 'Enschede'
+    ],
+    'Noord-holland' => [
+        'hoofdstad' => 'Haarlem',
+        'bevolking' => '2835359',
+        'meeste inwoners in gemeente' => 'Amsterdam'
+    ],
+    'Zuid-holland' => [
+        'hoofdstad' => 'Den Haag',
+        'bevolking' => '3673893',
+        'meeste inwoners in gemeente' => 'Rotterdam'
 ];
 
 foreach($provincies as $provincie ){
