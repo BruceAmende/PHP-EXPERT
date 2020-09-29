@@ -39,9 +39,9 @@ De voetbalclub moet een administratiesysteem hebben van wie in welk team speelt 
 - [ x] Maak een pagina om alle leden te kunnen tonen (overzichtspagina met een tabel)
 - [ x] Maak een pagina om teams te kunnen bekijken   (overzichtspagina met een tabel)
 - [ x] Maak een pagina om de gegevens van een enkele gebruiker te kunnen tonen (overzicht van een enkele rij)
-- [ ] Maak een pagina om de gegevens van een enkel team te kunnen tonen       (overzicht van een enkele rij)
-- [ ] Maak op elke regel van de eerder gemaakte tabellen een link waarmee je de rij kunt verwijderen
-- [ ] Maak een nog link op de gegenereerde rijen om naar een aparte pagina te gaan om deze data te kunnen updaten.
+- [x ] Maak een pagina om de gegevens van een enkel team te kunnen tonen       (overzicht van een enkele rij)
+- [x ] Maak op elke regel van de eerder gemaakte tabellen een link waarmee je de rij kunt verwijderen
+- [ x] Maak een nog link op de gegenereerde rijen om naar een aparte pagina te gaan om deze data te kunnen updaten.
 
 ## Eindresultaat
 
