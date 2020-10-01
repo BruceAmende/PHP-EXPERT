@@ -43,10 +43,10 @@ tr:nth-child(even) {
   
     <th>Voornaam</th>
     <th>Achternaam</th>
-    <th>email</th>
-    <th>wachtwoord</th>
-    <th>team</th>
-    <th>contributie</th>
+    <th>Email</th>
+    <th>Wachtwoord</th>
+    <th>Team</th>
+    <th>Contributie</th>
   </tr>
   <tbody>
    <?php foreach($database_gegevens as $data):?>
@@ -63,6 +63,8 @@ tr:nth-child(even) {
   </tr>
   <?php endforeach; ?>
 </table>
+
+<a href="..\overzicht.php" class="btn btn-light">Terug naar overzicht</a>
 
 </body>
 </html>
