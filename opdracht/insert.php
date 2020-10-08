@@ -3,14 +3,13 @@
     include('include/header.php');
 ?>
 
-
 <html>
 <body>
+<h2>Voeg lid toe</h2>
 
-<h2>Update Lid <?php echo  $_GET['id'];?></h2>
-
-<form   action="db.conn/db.connUpdate.php" method="get">
-
+<form  action="db.conn/db.connInsert.php" method="get">
+        <input type="number"placeholder='ID' name="ID"><br>
+        <br>
         <input  type="text"placeholder='Voornaam' name="voornaam"><br>
         <br>
         <input type="text"placeholder='Achternaam' name="achternaam"><br>
@@ -23,7 +22,7 @@
         <br>
         <input type="text"placeholder='Contributie' name="contributie"><br>
         <br>
-        <input type="submit" value='Update'>
+<input type="submit" value='Voeg toe'>
 </form>
 
 </body>

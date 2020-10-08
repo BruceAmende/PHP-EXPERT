@@ -14,10 +14,12 @@ table {
   font-family: arial, sans-serif;
   border-collapse: collapse;
   width: 100%;
+  background-color: lightgray;
+ 
 }
 
 td, th {
-  border: 3px solid #dddddd;
+  border: 2px solid black;
   text-align: left;
   padding: 8px;
 }
@@ -27,11 +29,6 @@ tr:nth-child(even) {
 }
 </style>
 </head>
-
-
-
-
-
 
 <h2>Overzicht teams</h2>
 

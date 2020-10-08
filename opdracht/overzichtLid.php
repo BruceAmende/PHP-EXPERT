@@ -8,9 +8,11 @@
 <body>
 <h2>Zoek Lid</h2>
 <form action="db.conn/db.connZoek.php" method="get">
-Voornaam: <input type="text" name="voornaam"><br>
-Achternaam: <input type="text" name="achternaam"><br>
-<input type="submit" value='Toon'>
+ <input type="text"placeholder='Voornaam' name="voornaam"><br>
+ <br>
+ <input type="text"placeholder='Achternaam' name="achternaam"><br>
+ <br>
+<input type="submit" value='Toon gegevens'>
 </form>
 
 </body>
